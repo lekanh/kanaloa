@@ -18,7 +18,7 @@ upper_yellow = np.array([30,255,255])
 lower_green = np.array([90,46,112])
 upper_green = np.array([98,250,250])
     
-color_codes = {"red": (0, 0, 255), "blue": (255,0,0), "green": (0, 255, 0), "yellow": (0, 255, 255)}
+color_codes = {"red": (0, 0, 255), "blue": (255,0,0), "green": (0, 255, 0), "yellow": (0, 255, 255), "black": (0, 0, 0)}
 
 def main(args):
 
@@ -118,20 +118,6 @@ def scan_color(image, x1, x2, y1, y2):
     else:
         return 'yellow'
 
-    print(red, blue, green)
-    
-    
-
-#     # height, width, number of channels in image
-#     dimensions = img.shape
-#     height = img.shape[0]
-#     width = img.shape[1]
-#     channels = img.shape[2]
-
-#     print 'Image Dimension    :' , dimensions
-#     print 'Image Height       :' , height
-#     print 'Image Width        :' , width
-#     print 'Number of Channels :' , channels
 
 if __name__ == '__main__':
     main(sys.argv)
