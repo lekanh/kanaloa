@@ -1,1 +1,1 @@
-For the Scan the Code Task of RobotX Challenge 2020
+For the Scan the Code Task of RobotX Challenge 2020 using prior [codes](https://github.com/riplaboratory/Kanaloa/blob/master/Projects/DeepLearning/ScanTheCode/scan_the_code.py) made for 2018 by Raymond
