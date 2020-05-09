@@ -29,10 +29,10 @@ def main(args):
     images = ["i1.png", "i2.png", "i4.png", "i3.png", "i5.png"]
 
     #These are the 4 coordinates of each image
-    x1 = [205, 237, 205, 205, 205]
-    x2 = [236, 252, 236, 236, 236]
-    y1 = [128, 114, 128, 128, 128]
-    y2 = [162, 149, 162, 162, 162]
+    x1 = [205, 266, 216, 226, 233]
+    x2 = [236, 284, 233, 244, 256]
+    y1 = [128, 127, 115, 155, 125]
+    y2 = [162, 171, 158, 200, 163]
 
     #This for loop runs through all the images using the scan_color function which is defined later
     for i in range(len(images)):
